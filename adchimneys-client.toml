@@ -3,7 +3,7 @@
 	#Maximum smoke particles that can be rendered at scene.
 	#If exceeded, smoke amount will be reduced proportionally for each rendered chimney
 	#Range: 0 ~ 2000
-	maxRenderedParticlesAmount = 800
+	maxRenderedParticlesAmount = 1200
 	#Completely disables vanilla cozy smoke particles from a campfire
 	disableVanillaCampfireSmoke = true
 	#Whether or not to colorize smoke particles

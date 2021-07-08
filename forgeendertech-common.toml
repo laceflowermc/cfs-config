@@ -4,7 +4,7 @@ debug = false
 [SmokeContainers]
 	#Maximum distance from vent to the gas block to inhale
 	#Range: 1 ~ 16
-	ventInhaleDistance = 8
+	ventInhaleDistance = 16
 	#Maximum length of the vent pipe for smoke or gas transmition
 	#Range: 1 ~ 64
 	maxVentPipeLength = 64

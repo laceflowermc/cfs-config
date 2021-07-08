@@ -28,7 +28,7 @@
 	#Mob sounds to play a unique animation for.
 	#Useful for adding support for modded mob variations which have different sounds from their vanilla counterparts.
 	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
-	"Mob Sounds" = ["minecraft:entity.pig.ambient", "snowpig:entity.snow_pig.ambient"]
+	"Mob Sounds" = ["minecraft:entity.pig.ambient"]
 
 [squid_tentacles]
 	#Define the max length of the tentacles.
@@ -80,5 +80,5 @@
 	#Range: 1 ~ 20
 	"Swing Amount" = 5
 	#Don't render four nipples on every cow's utter.
-	"Hide Nipples" = false
+	"Hide Nipples" = true
 

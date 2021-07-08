@@ -13,5 +13,5 @@
 	maxIntencity = 4.0
 	#Maximum smoke particles amount per chimney
 	#Range: 1 ~ 100
-	maxAmount = 16
+	maxAmount = 64
 
