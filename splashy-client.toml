@@ -1,0 +1,10 @@
+
+#General settings for the mod.
+[general]
+	#A list of additional splash texts that can be displayed.
+	customSplashes = ["Thanks Jared!", "Thanks Kota!", "hey all god here", "Pollution is your friend!", "16 times the detail!", "From Scratch!", "100% world-generation free!"]
+	#Should the names of mods be added to the pool of splashes?
+	includeModNames = false
+	#Should vanilla splash texts still be in the splash pool?
+	includeVanillaSplashes = false
+

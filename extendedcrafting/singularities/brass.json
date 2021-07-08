@@ -1,0 +1,10 @@
+{
+  "name": "Brass",
+  "colors": [
+    "e4c66a",
+    "aa733f"
+  ],
+  "ingredient": {
+    "item": "create:brass_ingot"
+  }
+}

@@ -1,0 +1,21 @@
+{
+	/* The number that will be used as a divisor to perform the speed calculation.
+	   Example: A Lava Bucket has a fuel value of 20000
+	   20000 / 300 = 66.6666...
+	   So a Lava Bucket is 66% faster than the normal furnace speed.
+	*/
+	"divisorNumber": 300,
+
+	/* The maximum percentage of additional speed that a fuel can reach.
+	   DO NOT SET THIS HIGHER THAN 100
+	*/
+	"maxPercentage": 90,
+
+	/* Custom Fuels Values - Format: "item": percentage,
+	   item = The item id. Example: minecraft:coal. To use item tags, start with "tag:". Example: tag:minecraft:coals
+	   percentage = How much faster it is compared to the normal furnace. It cannot exceed the value set in 'maxPercentage'
+	*/
+	"customValues": {
+		"minecraft:lava_bucket": 80.0
+	}
+}
