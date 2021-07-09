@@ -37,8 +37,8 @@
 	Client = true
 
 [automation]
-	Chute = true
-	"Iron Rod" = true
+	Chute = false
+	"Iron Rod" = false
 	"Weather Sensor" = true
 	"Ender Watcher" = true
 	"Endermites Form Shulkers" = true
@@ -250,9 +250,9 @@
 	"Pathfinder Maps" = true
 	"Bottled Cloud" = true
 	"Color Runes" = true
-	"Ancient Tomes" = true
+	"Ancient Tomes" = false
 	"Slime In A Bucket" = true
-	Camera = true
+	Camera = false
 	Trowel = true
 	Abacus = true
 
@@ -270,7 +270,7 @@
 		#Set to 0 to not generate in Underwater Ruins
 		"Underwater Ruin Weight" = 0
 		#Set to 0 to not generate in Woodland Mansions
-		"Woodland Mansion Weight" = 15
+		"Woodland Mansion Weight" = 0
 		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing"]
 		#Set to 0 to not generate in Dungeons
 		"Dungeon Weight" = 20
@@ -343,7 +343,7 @@
 	"Lock Rotation" = true
 	"Dragon Scales" = true
 	"Replace Scaffolding" = true
-	"Axe Leaf Harvesting" = true
+	"Axe Leaf Harvesting" = false
 	"Sign Editing" = true
 	"Dirt To Path" = true
 	"Simple Harvest" = true
@@ -351,7 +351,7 @@
 	"Reacharound Placing" = true
 	"Villagers Follow Emeralds" = true
 	"Compasses Work Everywhere" = true
-	"Skull Pikes" = true
+	"Skull Pikes" = false
 	"Note Block Mob Sounds" = true
 	"Double Door Opening" = true
 	"Automatic Recipe Unlock" = true
@@ -478,31 +478,31 @@
 
 [world]
 	"New Stone Types" = true
-	"Lush Underground Biome" = true
-	"Big Dungeon" = true
-	Speleothems = true
-	"Elder Prismarine Underground Biome" = true
+	"Lush Underground Biome" = false
+	"Big Dungeon" = false
+	Speleothems = false
+	"Elder Prismarine Underground Biome" = false
 	"Blossom Trees" = true
-	"Sandstone Underground Biome" = true
-	"Glowshroom Underground Biome" = true
-	"Permafrost Underground Biome" = true
-	"Underground Clay" = true
-	"Slime Underground Biome" = true
-	"Fairy Rings" = true
-	"Chorus Vegetation" = true
-	Crevices = true
+	"Sandstone Underground Biome" = false
+	"Glowshroom Underground Biome" = false
+	"Permafrost Underground Biome" = false
+	"Underground Clay" = false
+	"Slime Underground Biome" = false
+	"Fairy Rings" = false
+	"Chorus Vegetation" = false
+	Crevices = false
 	"Nether Obsidian Spikes" = true
-	"Mega Caves" = true
-	"Realistic World Gen" = true
+	"Mega Caves" = false
+	"Realistic World Gen" = false
 	Biotite = true
-	"Big Stone Clusters" = true
-	"Brimstone Underground Biome" = true
-	"Cave Crystal Underground Biome" = true
+	"Big Stone Clusters" = false
+	"Brimstone Underground Biome" = false
+	"Cave Crystal Underground Biome" = false
 	"Spiral Spires" = true
-	"Overgrown Underground Biome" = true
-	"Cave Roots" = true
-	"Spider Nest Underground Biome" = true
-	"Monster Box" = true
+	"Overgrown Underground Biome" = false
+	"Cave Roots" = false
+	"Spider Nest Underground Biome" = false
+	"Monster Box" = false
 
 	[world.monster_box]
 		#The chance for the monster box generator to try and place one in a chunk, 1 is 100%
@@ -1849,7 +1849,7 @@
 	"Improved Tooltips" = true
 	"Improved Mount Hud" = true
 	"Usage Ticker" = true
-	"Auto Walk Keybind" = true
+	"Auto Walk Keybind" = false
 	"Chest Searching" = true
 
 	[client.usage_ticker]
@@ -1863,7 +1863,7 @@
 
 	[client.variant_animal_textures]
 		"Enable Shiny Llama" = true
-		"Every Bee Is L G B T" = false
+		"Every Bee Is L G B T" = true
 		#The chance for an animal to have a special "Shiny" skin, like a shiny pokemon. This is 1 in X. Set to 0 to disable.
 		"Shiny Animal Chance" = 2048
 		"Enable Pig" = true
@@ -1904,12 +1904,12 @@
 		"Affect Leaves" = true
 
 [oddities]
-	"Totem Of Holding" = true
-	Backpack = true
-	Crate = true
-	"Matrix Enchanting" = true
-	Magnets = true
-	Pipes = true
+	"Totem Of Holding" = false
+	Backpack = false
+	Crate = false
+	"Matrix Enchanting" = false
+	Magnets = false
+	Pipes = false
 
 	[oddities.totem_of_holding]
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
@@ -1929,7 +1929,7 @@
 
 	[oddities.matrix_enchanting]
 		#Set to false to disable the ability to influence enchantment outcomes with candles (requires the Tallow and Candles module enabled)
-		"Allow Influencing" = true
+		"Allow Influencing" = false
 		#A list of enchantment IDs you don't want the enchantment table to be able to create
 		"Disallowed Enchantments" = []
 		#The maximum enchanting power the matrix enchanter can accept
@@ -1972,7 +1972,7 @@
 		"Influence Max" = 4
 
 	[oddities.backpack]
-		"Enable Ravager Hide" = true
+		"Enable Ravager Hide" = false
 		"Base Ravager Hide Drop" = 1
 		"Extra Chance Per Looting" = 0.5
 		#Set this to true to allow the backpacks to be unequipped even with items in them
@@ -1990,8 +1990,8 @@
 		"Pipe Speed" = 5
 
 [experimental]
-	Shiba = false
-	"Adjustable Chat" = false
+	Shiba = true
+	"Adjustable Chat" = true
 	"Narrator Readout" = false
 	"Overlay Shader" = false
 	"Custom Underground Biome" = false
@@ -2011,13 +2011,13 @@
 	[experimental.game_nerfs]
 		#Makes Mending act like the Unmending mod
 		#https://www.curseforge.com/minecraft/mc-mods/unmending
-		"Nerf Mending" = true
+		"Nerf Mending" = false
 		#Makes Iron Golems not drop Iron Ingots
-		"Disable Iron Farms" = true
+		"Disable Iron Farms" = false
 		#Makes Sheep not drop Wool when killed
-		"Disable Wool Drops" = true
+		"Disable Wool Drops" = false
 		#Makes Boats not glide on ice
-		"Disable Ice Roads" = true
+		"Disable Ice Roads" = false
 		#Resets all villager discounts when zombified to prevent reducing prices to ridiculous levels
 		"Nerf Villager Discount" = true
 

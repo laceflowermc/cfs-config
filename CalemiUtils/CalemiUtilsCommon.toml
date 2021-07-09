@@ -7,7 +7,7 @@
 
 [WorldGen]
 	#Raritanium Ore Gen
-	raritaniumOreGen = true
+	raritaniumOreGen = false
 	#Raritanium Ore Min Y
 	raritaniumOreGenMinY = 0
 	#Raritanium Veins Per Chunk
@@ -88,11 +88,11 @@
 	#Blueprint Filler Max Scan Range
 	#The max amount of Blueprint the Blueprint Filler can scan.
 	#Range: 1 ~ 1000000
-	blueprintFillerMaxScan = 100000
+	blueprintFillerMaxScan = 1
 	#Blender Max Juice
 	#The max height amount of juice the Blender can store.
 	#Range: 0 ~ 1000000
-	blenderMaxJuice = 1000
+	blenderMaxJuice = 1
 	#Trading Post Broadcast Delay
 	#The amount of seconds before a Player can broadcasts their Trading Post.
 	#Range: 0 ~ 3600

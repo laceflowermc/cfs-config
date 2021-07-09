@@ -1,9 +1,9 @@
 {
   "TestBuyItem": {
     "index": 0,
-    "stackStr": "minecraft:cobblestone",
+    "stackStr": "ender_bags:white_bag",
     "stackNBT": "",
-    "amount": 64,
-    "value": 64
+    "amount": 1,
+    "value": 100
   }
 }

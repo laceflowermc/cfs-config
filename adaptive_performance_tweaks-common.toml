@@ -103,7 +103,7 @@
 		minecraftEnabled = true
 		#e.g. mostly bats
 		#Range: 1 ~ 64
-		minecraftMaxPassiveMobsPerPlayer = 0
+		minecraftMaxPassiveMobsPerPlayer = 1
 		#Range: 1 ~ 512
 		minecraftMaxPassiveMobsPerWorld = 512
 		#e.g. sheep, pig, horse, fox, ...

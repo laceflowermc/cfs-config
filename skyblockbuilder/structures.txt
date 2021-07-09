@@ -16,4 +16,5 @@ minecraft:buried_treasure
 minecraft:village
 minecraft:nether_fossil
 minecraft:bastion_remnant
+castle_in_the_sky:castle_in_the_sky
 quark:big_dungeon
